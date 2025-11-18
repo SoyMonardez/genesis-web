@@ -6,7 +6,7 @@ const track = document.querySelector(".carousel__track");
 let slides = Array.from(track.children);
 
 let isPaused = false;
-let speed = 0.6; // velocidad del movimiento
+let speed = 1; // velocidad del movimiento
 let position = 0;
 
 // Duplicamos elementos para efecto infinito
